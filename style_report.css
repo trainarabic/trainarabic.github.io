@@ -1,0 +1,139 @@
+body {
+    padding-top: 100px;
+}
+
+
+
+/* telegram */
+/* telegram */
+/* telegram */
+
+:root {
+    --size: 10em;
+  }
+  
+  .circle {
+    width: var(--size);
+    height: var(--size);
+    background: linear-gradient(#36AEE0, #1C96D1);
+    border-radius: 50%;
+    margin: 3em auto;
+    position: relative;
+  }
+  
+  .plane {
+    position: absolute;
+    width: calc(var(--size) / 1.8);
+    height: calc(var(--size) / 2);
+    left: 58%;
+    top: 45%;
+    transform: translate(-50%, -50%) rotate(30deg) skewX(-18deg) skewY(-6deg);
+  }
+  
+  .wing {
+    --skew: -10deg;
+    height: 100%;
+    width: 50%;
+    background: white;
+    border-radius: 0.5em 0 0 0.5em;
+    position: absolute;
+    transform: skewY(var(--skew));
+    -webkit-clip-path: polygon(0 100%, 0 95%, 95% 2%, 98% 0, 150% 0, 150% 150%);
+            clip-path: polygon(0 100%, 0 95%, 95% 2%, 98% 0, 150% 0, 150% 150%);
+  }
+  
+  .right {
+    left: 50.5%;
+    transform: skewY(calc(var(--skew) * -1)) rotateY(180deg) scaleX(1.05);
+  }
+  
+  .left:before, .left:after {
+    content: "";
+    position: absolute;
+    border-radius: 0.8em 0.5em 0.5em 0.15em;
+  }
+  .left:before {
+    width: 44%;
+    height: 65%;
+    background: #CDE1EE;
+    top: 48%;
+    left: 89%;
+    transform: skewY(35deg) rotate(8deg);
+  }
+  .left:after {
+    background: #afc5db;
+    width: 26%;
+    height: 25%;
+    top: 87%;
+    left: 101.5%;
+    transform: skewY(50deg) rotate(8deg);
+  }
+
+
+/* end telegram */
+/* end telegram */
+/* end telegram */
+/* end telegram */
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* Цвет фона поля ввода */
+    color: #000; /* Цвет текста в поле ввода */
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Изменение цвета кнопки при наведении */
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+        padding-top: 80px;
+    }
+    label {
+        font-size: 14px;
+    }
+    form {
+      padding: 10px; /* Уменьшаем отступы */
+    }
+  
+    input[type="email"],
+    textarea {
+      padding: 6px;
+      font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+  
+    button[type="submit"] {
+      padding: 8px;
+      font-size: 16px; /* Увеличиваем размер кнопки */
+    }
+  }
