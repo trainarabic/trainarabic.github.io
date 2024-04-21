@@ -10,22 +10,22 @@ data.sort((a, b) => a.id - b.id)
 
 data.forEach(card => {
     let skip = false
-    if (cardID == 1) {
+    if (cardID == 2) {
         cardContentValue += `
         <div id="" class="title_item">
-                مَنْ هذا ؟ ومَن ذلك ؟
-                <br> Кто это? И кто тот?
+                النَكِرَةُ ، المَعْرِفَةُ
+                <br> Неопределенность, определенность
                 </div>
         `
         cardID++
         buttonID++
         skip = true
     }
-    if (cardID == 4) {
+    if (cardID == 7) {
         cardContentValue += `
         <div id="" class="title_item">
-                مَا هذا ؟ ومَا ذلك ؟
-                <br> Что это? И что то?
+                الحُرُوفُ القَمَرِيَّةُ ، وَالحُرُوفُ الشَمْسِيَّةُ
+                <br> лунные и солнечные буквы
                 </div>
         `
         cardID++
