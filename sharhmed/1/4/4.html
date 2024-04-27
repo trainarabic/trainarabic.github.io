@@ -20,22 +20,16 @@
     <div class="" style="text-decoration: none; margin-top: 10px; margin-bottom: 40px;">
         <a class="buttons_style" style="text-decoration: none; margin-top: 10px; margin-bottom: 40px;" href="/index.html">на главную</a>
     </div>
-    
 
-    <div class="rec_download" style="display: flex; flex-direction: column; width: 100%; text-align: center; justify-content: center; align-items: center; color: rgb(127, 108, 84);">
-        <div class="" style="width: 70%;">
-            рекомендую читать параллельно книгу, т.к. сюда из книги перенесены только правила,
-             но не перенесены примеры и всё остальное. Вам нужно проходить книги с учителем или слушать записи лекций.
-             А это приложение для закрепления материала.
-        </div>
-        
+    <div class="rec_download" style="display: flex; flex-direction: column; width: 100%; justify-content: center; align-items: center; color: rgb(127, 108, 84);">
+        рекомендую читать параллельно книгу, т.к. сюда из книги перенесены только правила, но не перенесены примеры и всё остальное
         <button class="buttons_style" onclick="downloadPDF()">Скачать pdf шарх первого тома</button>
     </div>
     
     <script>
         function downloadPDF() {
             // Замена "myfile.pdf" на имя вашего PDF-файла
-            const url = "../tom_kommentary_k_medinskomu_kursu_01.pdf";
+            const url = "./tom_kommentary_k_medinskomu_kursu_01.pdf";
 
             // Создание объекта Blob
             const blob = new Blob([window.location.origin + url], {
@@ -57,22 +51,23 @@
     <div class="nav_pages">
         <h3>уроки:</h3>
         
-        <a href="" class="page">١</a>
+        <a href="../1/1.html" class="page">١</a>
         <a href="../2/2.html" class="page">٢</a>
         <a href="../3/3.html" class="page">٣</a>
-        <a href="../4/4.html" class="page">٤</a>
+        <a href="" class="page">٤</a>
+        
     </div>
     <div class="title" >
             
             <div id="" class="title_item">
-                 ١
+                 ٣
             </div>
             <div id="" class="title_item">
-                الدرس الأول
+                الدرس الرابِعُ
             </div>
             <div id="" class="title_item">
-                هذا
-                <br> Это
+                حُرُوفُ الجَرِّ
+                <br> Частицы джарр (родительного/винительного падежей)
             </div>
     </div>
     <div class="card-content"></div>
