@@ -76,6 +76,9 @@ body {
     margin: 15px 0;
     width: 100%;
     color: rgba(205, 198, 60, 0.8);
+
+    border: solid 1px rgba(70, 70, 60, 0.8);
+    padding: 15px;
 }
 
 
@@ -90,6 +93,8 @@ body {
     /* Center the child horizontally */
     align-items: center;
     flex-direction: column;
+
+    border: solid 1px rgba(70, 70, 60, 0.8);
 }
 
 .card {
