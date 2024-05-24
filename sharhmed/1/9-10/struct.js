@@ -21,33 +21,66 @@ data.forEach(card => {
         buttonID++
         skip = true
     }
-    if (cardID == 99 && !skip) {
+    if (cardID == 3 && !skip) {
         cardContentValue += `
         <div id="" class="title_item">
-                الإشارَةُ إلَى المُعَرَّفِ بِأَلْ
-                <br> указание на определённое имя посредством аль
+                الدرس العَاشِرُ
+                
                 </div>
         `
         cardID++
         buttonID++
         skip = true
     }
-    if (cardID == 99 && !skip) {
+    if (cardID == 4 && !skip) {
         cardContentValue += `
         <div id="" class="title_item">
-                لِمَنْ
-                <br> чей / для кого
+                الضَمَائِرُ
+                <br> местоимения
                 </div>
         `
         cardID++
         buttonID++
         skip = true
     }
-    if (cardID == 99 && !skip) {
+    if (cardID == 6 && !skip) {
         cardContentValue += `
         <div id="" class="title_item">
-                أمامَ ، خَلْفَ
-                <br> спереди (амама), сзади (хольфа)
+                عِنْدِي
+                <br> у меня
+                </div>
+        `
+        cardID++
+        buttonID++
+        skip = true
+    }
+    if (cardID == 7 && !skip) {
+        cardContentValue += `
+        <div id="" class="title_item">
+                عِنْدَ
+                <br> у, при; близ, около; во время
+                </div>
+        `
+        cardID++
+        buttonID++
+        skip = true
+    }
+    if (cardID == 8 && !skip) {
+        cardContentValue += `
+        <div id="" class="title_item">
+                لِ
+                <br> предлог, выражающий принадлежность. В сочетании с существительными и местоимениями соответствует дательному падежу. Также может означать "из-за", "чтобы" и другие значения смотрите в словаре
+                </div>
+        `
+        cardID++
+        buttonID++
+        skip = true
+    }
+    if (cardID == 9 && !skip) {
+        cardContentValue += `
+        <div id="" class="title_item">
+                مَعَ
+                <br> с
                 </div>
         `
         cardID++
