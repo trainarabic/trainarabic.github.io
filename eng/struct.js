@@ -10,7 +10,7 @@ data.sort((a, b) => a.id - b.id)
 
 data.forEach(card => {
     let skip = false
-    if (cardID == 2) {
+    if (cardID == 222) {
         cardContentValue += `
         <div id="" class="title_item">
                  ذُو
@@ -21,7 +21,7 @@ data.forEach(card => {
         buttonID++
         skip = true
     }
-    if (cardID == 33) {
+    if (cardID == 332) {
         cardContentValue += `
         <div id="" class="title_item">
                  أهذا سَرير ؟
@@ -32,7 +32,7 @@ data.forEach(card => {
         buttonID++
         skip = true
     }
-    if (cardID == 53) {
+    if (cardID == 532) {
         cardContentValue += `
         <div id="" class="title_item">
                   مَن هذا ؟
